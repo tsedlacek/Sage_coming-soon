@@ -1,0 +1,291 @@
+/* scroll down approx 2/3 of the way for submenu toggle on/off */
+
+ *{
+	box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Teko:400,300);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+
+body{	
+	font: 16px/20px 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: #c6c4c5;
+	background: #7e7a7d url(../img/background.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+
+.clearfix:before, .clearfix:after{
+	display: table;
+	content: "";
+}
+.clearfix:after{
+	clear: both;
+}
+
+h1, h2, h3, button, .time{
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+h1{
+	font-size: 120px;
+	line-height: 120px;
+	letter-spacing: 18px;
+	margin-bottom: 15px;
+}
+
+h2{
+	font-size: 30px;
+	letter-spacing: 4px;
+	margin-bottom: 25px;
+}
+
+h3{
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.topBar{
+	margin-bottom: 180px;
+}
+
+.logo{
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+
+.menu{
+	float: right;
+	width: 70px;
+	height: 70px;
+	padding-top: 28px;
+	background: #352d2f;
+	position: relative;
+	z-index: 1;
+}
+
+.bar{
+	display: block;
+	width: 25px;
+	height: 2px;
+	background: #fff;
+	margin: 0px auto 4px;
+}
+
+main{
+	width: 60%;
+}
+
+.lead{
+	font-size: 26px;
+	line-height: 34px;
+	color: #deddde;
+}
+
+.content{
+	width: 90%;
+}
+
+main section{
+	margin-bottom: 60px
+}
+
+main section header{
+	margin-bottom: 30px;
+}
+
+aside{
+	width: 80%;
+}
+
+aside p{
+	font-size: 18px;
+}
+
+form{
+	margin-top: 35px;
+	padding-bottom: 38px;
+}
+
+input{
+	font-size: 16px; 
+	color: #555555;
+	padding-left: 16px;
+	width: 350px;
+	height: 50px;
+	border: 1px solid #e5e5e5;
+}
+
+button{
+	vertical-align: top;
+	width: 120px;
+	height: 50px;
+	border: none;
+	font-size: 20px;
+	letter-spacing: 2px;
+	background: #f63c3c;
+}
+
+.fa{
+	margin-right: 15px;
+	font-size: 25px;
+}
+
+.fa,a{
+	color: #fff;
+}
+
+.checkout{
+	width: 50%;
+	margin-left: 44px;
+	margin-bottom: 148px;
+}
+
+.checkout p{
+	font-size: 14px;
+	margin-bottom: 22px;
+	color: #fff;
+}
+
+.time{
+	text-transform: all-uppercase;
+	font-weight: 300;
+	color: #919091;
+}
+
+footer,small,ul,li{
+	color: #919091;
+	margin-bottom: 30px;
+}
+
+footer small{
+	float:left;
+}
+
+footer ul{
+	float: right;
+}
+
+footer ul li{
+	float: left;
+	margin-right: 20px;
+}
+
+footer ul li a{
+	color: #919091;;
+}
+
+
+
+/*submenu CSS
+
+.submenu{
+	display: none;
+}
+
+*/
+
+.submenu{
+	display: none;
+}
+
+.submenu{
+	background: rgba(246,60,60,0.9);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+ 
+.submenu li{
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	font-size: 60px;
+	letter-spacing: 5px;
+	display: inline-block;
+	float: left;
+	margin-top: 400px;
+	line-height: 60px;
+	width: 234px;
+}
+
+.submenu li li{
+	padding: 0px;
+	font-size: 24px;
+	margin: 10px 0 0 0;
+	line-height: 24px;
+	height: 24px;
+	letter-spacing: 2px;
+}
+
+.submenu li li a{
+	color: #f9d3d3;
+}
+
+.submenu .fa{
+	margin-left: 24px;
+	vertical-align: middle;
+}
+ 
+
+.submenu footer{
+	display: block;
+	clear: both;
+	height: 100%;
+}
+
+.submenu footer ul{
+	float: none;
+	display: block;
+	text-align: center;
+	padding-top: 160px;
+	margin-left: 60px;
+}
+
+.submenu footer ul li{
+	display: inline-block;
+	margin: 0 auto;
+	width: 36px;
+	float: none;
+	margin-right: 15px;
+}
+
+.submenu i{
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
